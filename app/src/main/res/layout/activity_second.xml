@@ -4,13 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="passposs2.kr.hs.emirim.activitytest.SecondActivity">
-
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ff00ff"
+        />
     <Button
         android:id="@+id/but_second"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:text="새로운 액티비티 시작"
+        android:text="메인 액티비티로 돌아가기"
         />
 
 </LinearLayout>
